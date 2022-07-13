@@ -1,0 +1,112 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 62.23 43.18) (size 62.23 49.53) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9272ccd5-e950-4f99-baec-47da7f19129b)
+    (property "Sheet name" "Magnetic Sensor" (id 0) (at 62.23 42.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "magnetic-sensor.kicad_sch" (id 1) (at 62.23 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 62.23 105.41) (size 62.23 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 94bb63c4-d35e-4601-b883-f7f070257a08)
+    (property "Sheet name" "H Bridge" (id 0) (at 62.23 104.6984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "h-bridge.kicad_sch" (id 1) (at 62.23 149.1746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/9272ccd5-e950-4f99-baec-47da7f19129b" (page "2"))
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/1f99508b-d926-4141-b6cd-6523ccc3871d"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/683ec5d2-a1e2-4b7c-88ff-16e5543c82f6"
+      (reference "#PWR?") (unit 1) (value "GNDA") (footprint "")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/9a53b286-2213-47bb-b959-79a1988c4e52"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/9aa5c314-6741-4e6b-945c-95b8e20017b9"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/c8c1a376-c800-4053-b57f-157d121ed784"
+      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/cbd8b785-0c8e-4509-ba77-b2205bc85c2c"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/d53a1178-328b-4db5-8bda-50ffcea9881b"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/0d6c29f0-1417-46d1-b511-185a0343e5d4"
+      (reference "D?") (unit 1) (value "1N4148WS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/55c0083f-7679-4a5e-bff0-99334039de8c"
+      (reference "D?") (unit 1) (value "1N4148WS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/a676113d-9d12-4482-82ec-868371cf1819"
+      (reference "D?") (unit 1) (value "1N4148WS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/b4fb92ea-ca0e-46a1-ba74-7347aea513fb"
+      (reference "D?") (unit 1) (value "1N4148WS") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/15b0910d-86f9-4441-b9bb-4b590f1e477a"
+      (reference "Q?") (unit 1) (value "IPD082N10N3G") (footprint "kicad_lceda:TO-252-3_L6.5-W5.8-P4.58-TL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/c05649b5-2c63-4e38-8c08-993f7cc84801"
+      (reference "Q?") (unit 1) (value "IPD082N10N3G") (footprint "kicad_lceda:TO-252-3_L6.5-W5.8-P4.58-TL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/cdffdff2-6b27-4e2a-a3ba-ac5e9fda134d"
+      (reference "Q?") (unit 1) (value "IPD082N10N3G") (footprint "kicad_lceda:TO-252-3_L6.5-W5.8-P4.58-TL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/ff8726e9-d985-4f74-9685-48d02d14f590"
+      (reference "Q?") (unit 1) (value "IPD082N10N3G") (footprint "kicad_lceda:TO-252-3_L6.5-W5.8-P4.58-TL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/31377f66-d801-4262-97ca-d51b5ae6e64e"
+      (reference "R?") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/5a8b2764-55ed-4fd4-a0e0-c81f12d75000"
+      (reference "R?") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/ac72586f-99ca-4bb5-98dc-d3a8d18915eb"
+      (reference "R?") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/b1cfed8e-8453-425f-9c1a-0d936ffcb0d9"
+      (reference "R?") (unit 1) (value "22R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/63e81318-0e89-4624-8696-6e3e0a779dbf"
+      (reference "U?") (unit 1) (value "EG2104S") (footprint "kicad_lceda:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/cd2a103c-bfca-4e98-8bd6-c3cfc594d9b9"
+      (reference "U?") (unit 1) (value "FR107WS") (footprint "kicad_lceda:SOD-323_L1.7-W1.3-LS2.6-RD-2")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/e60194c0-925b-4697-b6e0-5837c9248d50"
+      (reference "U?") (unit 1) (value "EG2104S") (footprint "kicad_lceda:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL")
+    )
+    (path "/94bb63c4-d35e-4601-b883-f7f070257a08/f8508224-24f3-4264-9aa5-f16dcd7bb715"
+      (reference "U?") (unit 1) (value "FR107WS") (footprint "kicad_lceda:SOD-323_L1.7-W1.3-LS2.6-RD-2")
+    )
+  )
+)
